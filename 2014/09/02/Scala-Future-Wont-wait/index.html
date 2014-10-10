@@ -3,17 +3,47 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Archives | sanfann&#39;s Note</title>
+  <title>Scala future can&#39;t wait? | sanfann&#39;s Note</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="sanfann's Note">
-<meta property="og:url" content="http://sanfann.github.com/archives/">
+  <meta name="description" content="最近在使用Scala future時，發現了一個奇怪的現象，執行下列程式
+12345678910Future {  println('1')  Thread.sleep(3000)  3} map {  println('2')  println(_)}Thread.sleep(5000)
+
+預期的輸出是
+123123
+
+但實際的輸出卻是
+123213
+
+但如果寫法改成
+12345678910Fu">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Scala future can't wait?">
+<meta property="og:url" content="http://sanfann.github.com/2014/09/02/Scala-Future-Wont-wait/">
 <meta property="og:site_name" content="sanfann's Note">
-<meta property="og:description">
+<meta property="og:description" content="最近在使用Scala future時，發現了一個奇怪的現象，執行下列程式
+12345678910Future {  println('1')  Thread.sleep(3000)  3} map {  println('2')  println(_)}Thread.sleep(5000)
+
+預期的輸出是
+123123
+
+但實際的輸出卻是
+123213
+
+但如果寫法改成
+12345678910Fu">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="sanfann's Note">
-<meta name="twitter:description">
+<meta name="twitter:title" content="Scala future can't wait?">
+<meta name="twitter:description" content="最近在使用Scala future時，發現了一個奇怪的現象，執行下列程式
+12345678910Future {  println('1')  Thread.sleep(3000)  3} map {  println('2')  println(_)}Thread.sleep(5000)
+
+預期的輸出是
+123123
+
+但實際的輸出卻是
+123213
+
+但如果寫法改成
+12345678910Fu">
 
   
     <link rel="alternative" href="/atom.xml" title="sanfann&#39;s Note" type="application/atom+xml">
@@ -111,9 +141,7 @@
 		</header>				
 	</div>
 </nav>
-      
-  
-    <article id="post-Scala-Future-Wont-wait" class="article article-type-post" itemscope itemprop="blogPost">
+      <article id="post-Scala-Future-Wont-wait" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
       <a href="/2014/09/02/Scala-Future-Wont-wait/" class="article-date">
@@ -130,8 +158,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2014/09/02/Scala-Future-Wont-wait/">Scala future can&#39;t wait?</a>
+    <h1 class="article-title" itemprop="name">
+      Scala future can&#39;t wait?
     </h1>
   
 
@@ -170,14 +198,19 @@
     </footer>
   </div>
   
+    
+  
 </article>
 
 
 
 
+<section id="comments">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</section>
 
-  
-  
 
       <footer id="footer">
   <div class="outer">
@@ -196,11 +229,13 @@
 <script>
   var disqus_shortname = 'sanfann';
   
+  var disqus_url = 'http://sanfann.github.com/2014/09/02/Scala-Future-Wont-wait/';
+  
   (function(){
     var dsq = document.createElement('script');
     dsq.type = 'text/javascript';
     dsq.async = true;
-    dsq.src = '//go.disqus.com/count.js';
+    dsq.src = '//go.disqus.com/embed.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
   })();
 </script>

@@ -21,62 +21,117 @@
   
     <link rel="icon" href="/favicon.png">
   
-  <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="/css/style.css" type="text/css">
 
-  
+  <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
 </head>
 <body>
   <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">sanfann&#39;s Note</a>
-      </h1>
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+	<header id="header" class="inner">
+		<div class="profilepic">
+			<img src="undefined">
+		</div>
+
+		<hgroup>
+		  <h1 class="header-author"><a href="/">sanfann</a></h1>
+		</hgroup>
+
+		
+
+		
+			<div class="onoffswitch">
+			    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+			    <label class="onoffswitch-label" for="myonoffswitch">
+			        <span class="onoffswitch-inner"></span>
+			        <span class="onoffswitch-switch"></span>
+			    </label>
+			</div>
+		
+
+		<div class="switch-area">
+			<section class="first-part">
+				<nav class="header-menu">
+					<ul>
+					
+						<li><a href="/">首頁</a></li>
+			        
+						<li><a href="/archives">文章列表</a></li>
+			        
+					</ul>
+				</nav>
+				<nav class="header-nav">
+					<div class="social">
+						
+					</div>
+				</nav>
+			</section>
+			
+			
+			<section class="second-part">
+				<div class="widget tagcloud">
+					<a href="/tags/issue/" style="font-size: NaNpx;">issue</a><a href="/tags/scala/" style="font-size: NaNpx;">scala</a>
+				</div>
+			</section>
+			
+		</div>
+	</header>				
+</div>
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+  	<div class="overlay"></div>
+	<div class="intrude-less">
+		<header id="header" class="inner">
+			<div class="profilepic">
+				<img src="undefined">
+			</div>
+
+			<hgroup>
+			  <h1 class="header-author"><a href="/">sanfann</a></h1>
+			</hgroup>
+			
+			<nav class="header-menu">
+				<ul>
+				
+					<li><a href="/">首頁</a></li>
+		        
+					<li><a href="/archives">文章列表</a></li>
+		        
+		        <div class="clearfix"></div>
+				</ul>
+			</nav>
+			<nav class="header-nav">
+				<div class="social">
+					
+				</div>
+			</nav>
+		</header>				
+	</div>
+</nav>
       
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><input type="submit" value="&#xF002;" class="search-form-submit"><input type="hidden" name="q" value="site:http://sanfann.github.com"></form>
-      </div>
-    </div>
-  </div>
-</header>
-      <div class="outer">
-        <section id="main">
   
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2014/08/23/hello-world/" class="article-date">
-  <time datetime="2014-08-23T13:11:25.000Z" itemprop="datePublished">8月 23 2014</time>
+    <article id="post-Scala-Future-Wont-wait" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2014/09/02/Scala-Future-Wont-wait/" class="article-date">
+  	<time datetime="2014-09-02T12:00:09.000Z" itemprop="datePublished">9月 2 2014</time>
 </a>
-    
-  </div>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/issue/">issue</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/scala/">scala</a></li></ul>
+
+    </div>
+  
   <div class="article-inner">
-    
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2014/08/23/hello-world/">中文測試</a>
+      <a class="article-title" href="/2014/09/02/Scala-Future-Wont-wait/">Scala future can&#39;t wait?</a>
     </h1>
   
 
@@ -84,30 +139,33 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">trobuleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick_Start">Quick Start</h2>
-<h3 id="Create_a_new_post">Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+        <p>最近在使用Scala future時，發現了一個奇怪的現象，執行下列程式</p>
+<figure class="highlight [scala]"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="type">Future</span> {</div><div class="line">  <span class="built_in">println</span>(<span class="string">"1"</span>)</div><div class="line">  <span class="type">Thread</span>.sleep(<span class="number">3000</span>)</div><div class="line">  <span class="number">3</span></div><div class="line">} <span class="built_in">map</span> {</div><div class="line">  <span class="built_in">println</span>(<span class="string">"2"</span>)</div><div class="line">  <span class="built_in">println</span>(<span class="number">_</span>)</div><div class="line">}</div><div class="line"></div><div class="line"><span class="type">Thread</span>.sleep(<span class="number">5000</span>)</div></pre></td></tr></table></figure>
 
-<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run_server">Run server</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>預期的輸出是</p>
+<figure class="highlight [bash]"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td></tr></table></figure>
 
-<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate_static_files">Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>但實際的輸出卻是</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">2</div><div class="line">1</div><div class="line">3</div></pre></td></tr></table></figure>
 
-<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>但如果寫法改成</p>
+<figure class="highlight [scala]"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="type">Future</span> {</div><div class="line">  <span class="built_in">println</span>(<span class="string">"1"</span>)</div><div class="line">  <span class="type">Thread</span>.sleep(<span class="number">3000</span>)</div><div class="line">  <span class="number">3</span></div><div class="line">} <span class="built_in">map</span> { i =&gt;</div><div class="line">  <span class="built_in">println</span>(<span class="string">"2"</span>)</div><div class="line">  <span class="built_in">println</span>(i)</div><div class="line">}</div><div class="line"></div><div class="line"><span class="type">Thread</span>.sleep(<span class="number">5000</span>)</div></pre></td></tr></table></figure>
 
-<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+<p>輸出就是如預期的為</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td></tr></table></figure>
+
+<p>透過jad來看compiler所產出的code到底變成什麼樣子</p>
+<p>使用placeholder寫法：</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="keyword">final</span> <span class="class"><span class="keyword">class</span> <span class="title">Main</span></span></div><div class="line">{</div><div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="class"><span class="keyword">class</span> <span class="title">delayedInit</span>.<span class="title">body</span> <span class="keyword">extends</span> <span class="title">AbstractFunction0</span></span></div><div class="line">    {</div><div class="line"></div><div class="line">        <span class="keyword">public</span> <span class="keyword">final</span> Object <span class="title">apply</span>()</div><div class="line">        {</div><div class="line">            Predef$.MODULE$.println(<span class="string">"2"</span>);</div><div class="line">            Future$.MODULE$.apply(<span class="keyword">new</span> .anonfun._cls1(), scala.concurrent.ExecutionContext.Implicits..MODULE$.global()).map(<span class="keyword">new</span> Serializable() {</div><div class="line"></div><div class="line">    ..........略............</div><div class="line"></div><div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="class"><span class="keyword">class</span> .<span class="title">anonfun</span>.<span class="title">_cls1</span> <span class="keyword">extends</span> <span class="title">scala</span>.<span class="title">runtime</span>.<span class="title">AbstractFunction0</span>.<span class="title">mcI</span>.<span class="title">sp</span></span></div><div class="line">        <span class="keyword">implements</span> <span class="title">Serializable</span></div><div class="line">    {</div><div class="line"></div><div class="line">        <span class="keyword">public</span> <span class="keyword">final</span> <span class="keyword">int</span> <span class="title">apply</span>()</div><div class="line">        {</div><div class="line">            <span class="keyword">return</span> apply$mcI$sp();</div><div class="line">        }</div><div class="line"></div><div class="line">        <span class="keyword">public</span> <span class="keyword">int</span> apply$mcI$<span class="title">sp</span>()</div><div class="line">        {</div><div class="line">            Predef$.MODULE$.println(<span class="string">"1"</span>);</div><div class="line">            Thread.sleep(<span class="number">3000</span>L);</div><div class="line">            <span class="keyword">return</span> <span class="number">3</span>;</div><div class="line">        }</div><div class="line"></div><div class="line">}</div></pre></td></tr></table></figure>
+
+<p>使用variable assignment寫法：</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="keyword">final</span> <span class="class"><span class="keyword">class</span> <span class="title">Main</span></span></div><div class="line">{</div><div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="class"><span class="keyword">class</span> <span class="title">delayedInit</span>.<span class="title">body</span> <span class="keyword">extends</span> <span class="title">AbstractFunction0</span></span></div><div class="line">    {</div><div class="line"></div><div class="line">        <span class="keyword">public</span> <span class="keyword">final</span> Object <span class="title">apply</span>()</div><div class="line">        {</div><div class="line">            Future$.MODULE$.apply(<span class="keyword">new</span> Serializable() {</div><div class="line"></div><div class="line">                <span class="keyword">public</span> <span class="keyword">final</span> <span class="keyword">int</span> <span class="title">apply</span>()</div><div class="line">                {</div><div class="line">                    <span class="keyword">return</span> apply$mcI$sp();</div><div class="line">                }</div><div class="line"></div><div class="line">                <span class="keyword">public</span> <span class="keyword">int</span> apply$mcI$<span class="title">sp</span>()</div><div class="line">                {</div><div class="line">                    Predef$.MODULE$.println(<span class="string">"1"</span>);</div><div class="line">                    Thread.sleep(<span class="number">3000</span>L);</div><div class="line">                    <span class="keyword">return</span> <span class="number">3</span>;</div><div class="line">                }</div><div class="line"></div><div class="line">                <span class="keyword">public</span> <span class="keyword">final</span> <span class="keyword">volatile</span> Object <span class="title">apply</span>()</div><div class="line">                {</div><div class="line">                    <span class="keyword">return</span> BoxesRunTime.boxToInteger(apply());</div><div class="line">                }</div><div class="line"></div><div class="line">                <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="keyword">long</span> serialVersionUID = <span class="number">0</span>L;</div><div class="line"></div><div class="line">            }</div><div class="line">, scala.concurrent.ExecutionContext.Implicits..MODULE$.global()).map(<span class="keyword">new</span> Serializable() {</div><div class="line"></div><div class="line">                <span class="keyword">public</span> <span class="keyword">final</span> <span class="keyword">void</span> <span class="title">apply</span>(<span class="keyword">int</span> i)</div><div class="line">                {</div><div class="line">                    apply$mcVI$sp(i);</div><div class="line">                }</div><div class="line"></div><div class="line">                <span class="keyword">public</span> <span class="keyword">void</span> apply$mcVI$<span class="title">sp</span>(<span class="keyword">int</span> i)</div><div class="line">                {</div><div class="line">                    Predef$.MODULE$.println(<span class="string">"2"</span>);</div><div class="line">                    Predef$.MODULE$.println(BoxesRunTime.boxToInteger(i));</div><div class="line">                }</div><div class="line"></div><div class="line">                <span class="keyword">public</span> <span class="keyword">final</span> <span class="keyword">volatile</span> Object <span class="title">apply</span>(Object v1)</div><div class="line">                {</div><div class="line">                    apply(BoxesRunTime.unboxToInt(v1));</div><div class="line">                    <span class="keyword">return</span> BoxedUnit.UNIT;</div><div class="line">                }</div><div class="line"></div><div class="line">                <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="keyword">long</span> serialVersionUID = <span class="number">0</span>L;</div><div class="line"></div><div class="line">            }</div><div class="line">, scala.concurrent.ExecutionContext.Implicits..MODULE$.global());</div><div class="line">            Thread.sleep(<span class="number">5000</span>L);</div><div class="line">            <span class="keyword">return</span> BoxedUnit.UNIT;</div><div class="line">        }</div><div class="line"></div><div class="line">        <span class="keyword">public</span> delayedInit.<span class="title">body</span>(Main$ $outer)</div><div class="line">        {</div><div class="line">        }</div><div class="line">    }</div><div class="line">...................略......................</div></pre></td></tr></table></figure>
+
+<p>可見得雖然這2種寫法在大部分的狀況是可以互換的，但一遇到future時則需要非常的小心，<br>如果placeholder的位置是處於code block中的第一行，那2種寫法都可以，但如果在<br>placeholder出現之前有做其它事情的話，那可能會造成執行的順序不是所預期的。</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://sanfann.github.com/2014/08/23/hello-world/" data-id="x8ob2vcs44frebpy" class="article-share-link">Share</a>
-      
       
     </footer>
   </div>
@@ -115,63 +173,38 @@
 </article>
 
 
-  
-  
-</section>
-        
-          <aside id="sidebar">
-  
-    
-  
-    
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/08">August 2014</a><span class="archive-list-count">1</span></li></ul>
-    </div>
-  </div>
+
+
 
   
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recents</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2014/08/23/hello-world/">中文測試</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
   
-</aside>
-        
-      </div>
+
       <footer id="footer">
-  
   <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2014 sanfann<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    <div id="footer-info">
+    	<div class="footer-left">
+    		&copy; 2014 sanfann
+    	</div>
+      	<div class="footer-right">
+      		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
+      	</div>
     </div>
   </div>
 </footer>
     </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
     
+<script>
+  var disqus_shortname = 'sanfann';
+  
+  (function(){
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//go.disqus.com/count.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
@@ -180,9 +213,12 @@
 
   <script src="/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
 
+  <script src="/js/main.js" type="text/javascript"></script>
+
 
 
 <script src="/js/script.js" type="text/javascript"></script>
+
 
   </div>
 </body>
